@@ -1,1 +1,0 @@
-import{j as a}from"./index-CGkmsZHU.js";const e=()=>a.jsxs("div",{style:{padding:"2rem",fontFamily:"monospace",color:"#00ffe0",background:"#0f0f0f",minHeight:"100vh"},children:[a.jsx("h1",{children:"Moktarweb Academy"}),a.jsx("p",{children:"Ku soo dhawoow madal mythic ah oo loogu talagalay difaaca digital-ka iyo wacyi-gelinta Soomaaliyeed."})]});export{e as default};
