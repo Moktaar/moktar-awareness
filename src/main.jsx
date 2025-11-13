@@ -1,12 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
-import { MoktarAIProvider } from './context/MoktarAIContext.jsx';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MoktarAIProvider>
-      <App />
-    </MoktarAIProvider>
+    <App />
   </React.StrictMode>
-);
+)
