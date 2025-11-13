@@ -1,36 +1,12 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react'
 
-const Home = lazy(() => import('./pages/Home'));
-const Admin = lazy(() => import('./pages/Admin'));
-const Docs = lazy(() => import('./pages/Docs'));
-const Awareness = lazy(() => import('./pages/Awareness'));
-const PageNotFound = lazy(() => import('./pages/PageNotFound'));
-
-const App = () => {
+export default function App() {
   return (
-    <Router>
-      <Suspense fallback={
-        <div style={{
-          padding: '2rem',
-          fontFamily: 'monospace',
-          color: '#ffffff',
-          background: '#1a1a1a',
-          textAlign: 'center'
-        }}>
-          <h2>🔄 Loading mythic component...</h2>
-        </div>
-      }>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/admin" element={<Admin />} />
-          <Route path="/docs" element={<Docs />} />
-          <Route path="/awareness" element={<Awareness />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </Suspense>
-    </Router>
-  );
-};
-
-export default App;
+    <main style={{ padding: '2rem', fontFamily: 'sans-serif', textAlign: 'center' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#222' }}>Moktar Awareness Academy 😤</h1>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>
+        Welcome to the mythic drop of justice, protection, and digital impact.
+      </p>
+    </main>
+  )
+}
