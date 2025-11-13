@@ -1,0 +1,1 @@
+import{j as a}from"./index-CGkmsZHU.js";const o=()=>a.jsxs("div",{style:{padding:"3rem",textAlign:"center",fontFamily:"monospace",color:"#ff0044",background:"#0f0f0f",minHeight:"100vh"},children:[a.jsx("h1",{children:"404 – Bogga lama helin"}),a.jsx("p",{children:"Waa mythic page oo aan jirin. Fadlan dib u eeg URL-ka ama ku laabo bogga hore."})]});export{o as default};
